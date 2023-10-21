@@ -1,0 +1,9 @@
+# Mac Kram
+./DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environments
+*.env
+**/.env
