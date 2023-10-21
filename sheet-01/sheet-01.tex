@@ -1,0 +1,110 @@
+\documentclass[ngerman,12pt]{article}
+
+% PACKAGES
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{a4}
+\usepackage{amsfonts}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{listings}
+\usepackage{booktabs}
+
+% PAGE LAYOUT
+\setlength{\textwidth}{174mm}
+\setlength{\textheight}{220mm}
+\setlength{\topmargin}{10mm}
+\setlength{\oddsidemargin}{10mm}
+\setlength{\hoffset}{0mm}
+\setlength{\voffset}{0mm}
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{2mm}
+\pagestyle{empty}
+
+% EXERCISE SHEET SPECIFIC MAKROS
+\renewcommand{\title}[1]{\par\vspace{5mm}\centerline{\Large #1}}
+\newcommand{\subtitle}[1]{\par\vspace{1mm}\centerline{\footnotesize #1}\par}
+\newcommand{\exercise}[1]{\par\vspace{3mm}{\bf Aufgabe{\hspace{1mm}}#1}\hspace{1mm}}
+\definecolor{dark-gray}{gray}{0.40}
+\newcommand{\TODO}[1]{{\sf\color{blue} [#1]}}
+
+% GENERALLY USEFUL MATH MAKROS
+\def\ceil#1{{\left\lceil#1\right\rceil}}
+\def\floor#1{{\left\lfloor#1\right\rfloor}}
+\def\mod{\mbox{ mod }}
+\def\div{\mbox{ div }}
+\def\sm{\backslash}
+\def\IN{\mathbb{N}}
+\def\IZ{\mathbb{Z}}
+\def\IR{\mathbb{R}}
+\def\Oh#1{O\left(#1\right)}
+\def\Om#1{\Omega\left(#1\right)}
+\def\Th#1{\Theta\left(#1\right)}
+\def\eps{\varepsilon}
+
+\begin{document}
+
+% COLORS
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\definecolor{darkred}{rgb}{0.7,0.0,0.0}
+
+% HEAD OF EXERCISE SHEETS
+\setlength{\textwidth}{16.5cm}
+\setlength{\textheight}{22cm}
+\setlength{\topmargin}{0cm}
+\setlength{\oddsidemargin}{-0.3cm}
+\setlength{\evensidemargin}{0cm}
+\vspace*{-20mm}
+
+% Links der Name des Lehrstuhls.
+\parbox{40mm}{
+Algori Thmus\\[0mm]
+RZ: at314\\[0mm]
+Mn: 2718281\\[-5mm]} %\\[0.3mm]
+% In der Mitte der Name der Veranstaltung.
+\parbox{100mm}{\vspace*{1mm}\begin{center}\large\bf%
+Algorithmen und Datenstrukturen\\[0mm]
+\hspace{5mm} SS 2023\\[0mm]
+{\footnotesize\rm \url{http://ad-wiki.informatik.uni-freiburg.de/teaching}}%
+\end{center}}
+\par\vspace{-5mm}
+% Grauer Strich und rechts das Uni-Logo.
+\definecolor{freiburg-gray}{rgb}{0.68,0.68,0.68}
+\vspace*{2mm}
+\raisebox{1.19cm}{%
+\textcolor{freiburg-gray}{\rule{0.885\textwidth}{1.1mm}}}
+\par\vspace*{-37.84mm}
+\hspace*{\fill}\includegraphics[width=74pt,height=107pt]{Uni_Logo.png}
+\par\vspace{-5mm}
+
+\bigskip
+
+\title{Abgabe für das Übungsblatt N}
+\subtitle{9. Mai 2023}
+\renewcommand{\baselinestretch}{1.1}\normalsize
+
+\bigskip
+
+\exercise{1}
+
+Ich habe einen wundervollen Kuchen gefunden, aber leider war hier nicht genug Platz, um ihn hinzuschreiben.
+
+\exercise{2}
+
+Sei $\eps <0$. Der Rest ist analog zur Vorlesung.
+
+\exercise{3}
+
+Die konzentrierte Beinhaltung als Kernstück eines zukunftsweisenden Parteiprogramms.
+
+\exercise{4}
+
+Folgt unmittelbar aus Aufgaben 1 - 3.
+
+
+
+
+\end{document}

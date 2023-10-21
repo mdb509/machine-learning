@@ -1,2 +1,3 @@
 # machine-learning
-This repository is for the machine learnig lecture. 
+
+This repository is for the machine learnig lecture.
